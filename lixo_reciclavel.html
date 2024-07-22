@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lixo reciclavel</title>
+    <link rel="stylesheet" href="lixo_reciclavel.css">
+    <link rel="shortcut icon" href="icon.png">
+    <script src="https://kit.fontawesome.com/6bda94a8de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--order 1-->
+        <div class="logos">
+            <img class="logoBgWhite" src="logo.png" alt="">
+            <img class="logoBgBlack" src="logo2.png" alt="">
+        </div>
+
+        <!--order 2-->
+        <nav id="menu">
+            <ul id="imenu-list" class="menu-list">
+                <li><a href="/pag_gi/lixo_comercial.html">Sobre nós</a></li>
+                <li><a href="/curiosidades/curiosidades.html">Curiosidades</a></li>
+                <li><a href="#">Campanhas</a></li>
+            </ul>
+            <script>
+
+                var menuButton = document.getElementById("menu-btn");
+                var menu = document.getElementById("menu");
+
+                menu.style.transition("2s");
+
+                function showmenu() {
+                    if (menu.style.display === "none") {
+                        menu.style.display = "block";
+                    } else {
+                        menu.style.display = "none";
+                    }
+                };
+
+            </script>
+        </nav>
+
+        <!--order 3-->
+        <div class="dark_btn">
+            <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+            <label for="toggle" class="toggle-label" id="change">
+                <i id="sun" class="fa-solid fa-cloud-sun"></i>
+                <i id="moon" class="fa-solid fa-moon"></i>
+            </label>
+
+            <script>
+                const toggleBtn = document.getElementById('toggle');
+                const body = document.body;
+
+                toggleBtn.addEventListener('click', function () {
+                    body.classList.toggle('dark')
+                });
+            </script>
+        </div>
+
+        <!--order 4-->
+        <button onclick="showmenu()" id="menu-btn"><i class="fa-solid fa-water"></i></button>
+    </header>
+
+    <!-- <main></main> -->
+    <main>
+
+        
+        <main id="top">
+
+            <div class="text12">
+                <h2>Lixo Reciclável: O que caracteriza esse tipo de resíduo?</h2>
+                <div class="text1">
+                    <img src="recyclability.jpg" alt="" height="200px" width="350">
+
+                    <p><strong>Lixo reciclável</strong> Lixo reciclável são todos os materiais que podem ser
+                        transformados em novos produtos após serem processados, como papel, plástico, vidro e metal.
+                        n No Brasil, aproximadamente 20% a 25% do lixo produzido nas cidades é composto por materiais
+                        recicláveis. No entanto, apenas cerca de 10% a 15% desse lixo reciclável é realmente reciclado.
+                        Isso ressalta a necessidade de investimentos em infraestrutura, conscientização e políticas
+                        públicas para aumentar a taxa de reciclagem e reduzir o volume de resíduos enviados para aterros
+                        sanitários.
+                    </p>
+                    <div class="eletronico">
+                        <p>Para descartar lixo reciclável, separe os materiais (papel, plástico, vidro e metal),
+                            limpe-os, coloque nos recipientes corretos e informe-se sobre os dias de coleta na sua
+                            região. Reduzir e reutilizar também são práticas importantes para diminuir resíduos.
+
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="video1">
+                    <iframe width="450" height="250" src="https://www.youtube.com/embed/00K4pnobsxs?si=cRd45Cn-Cn7A1wEy"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+
+
+                <h2>Qual a importância de descartar o lixo reciclável de maneira correta?</h2>
+                <div class="text2">
+                    <div class="text4">
+                        <p>
+                            Alguns dos problemas que ocorem com o descarte incorreto do lixo reciclavel é Proliferação
+                            de animais
+                            e doenças, Contaminação do solo e da água pelo chorume, Péssimo odor devido ao lixo em
+                            decomposição,
+                            Entupimento de bueiros e aumento de enchentes, Aumento de incêndios pelos gases gerados pelo
+                            lixo em
+                            decomposição
+
+
+                        </p>
+
+                    </div>
+                    <div class="text3">
+
+                        <p>
+                            Além da poluição do ar, terra e água, a má gestão dos resíduos tem efeitos prejudiciais à saúde pública (devido à poluição ambiental e à possível transmissão de doenças infecciosas transportadas por vetores) e à degradação ambiental em geral, bem como aos impactos paisagísticos.
+
+                        </p>
+
+                        <img src="reci.avif" width="350px" height="200px" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+        <!-- <footer> -->
+        <footer>
+            <img src="logo_preto.png" alt="" height="120px">
+            <hr>
+            <div class="tudo">
+                <div class="voltar">
+                    <h3>Volte para:</h3>
+                    <a href="">Home</a>
+                </div>
+
+                <div class="referencias">
+                    <h3>Referências da Página:</h3>
+                    <a href="">Referência um</a>
+                    <a href="">Referência dois</a>
+                    <a href="">Referência três</a>
+                    <a href="">Referência Quatro</a>
+                </div>
+
+                <div class="links_rapidos">
+                    <h3>Links Rápidos</h3>
+                    <a href="">Siga nosso linktree</a>
+                    <a href="/pag_ind/main.html">Sobre nós</a>
+                    <a href="#">Curiosidades</a>
+                    <a href="#">Campanhas</a>
+                </div>
+
+
+            </div>
+
+            <p>&copy;2024 Desenvolvido por Limpo Ambiente</p>
+        </footer>
+
+</body>
