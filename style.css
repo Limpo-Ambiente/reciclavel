@@ -40,9 +40,7 @@ header {
     box-shadow: -1px -8px 40px #0000006e;
     height: 100px;
     background-color: #ffffffc6;
-
     backdrop-filter: blur(10px);
-
     position: -webkit-sticky;
     position: sticky;
     top: 0;
